@@ -27,13 +27,13 @@
 		"afterPeace": "Very well, petal. We'll see if you can manage on your own for now~",
 		"tradeRequest": "Oh dear, are you eating enough? Do you need anything? Here, we insist.",
 
-		"outerColor": [88,88,104],
+		"outerColor": [48,48,104],
 		"innerColor": [225,71,114],
 		"uniqueName": "Utopian Imperialism",
 		"uniques": [
-					"Comment [*Forests and Jungles act as roads*]",
+					"Comment [Forest and Jungle act as roads]",
 					"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.<hidden from users>",
-					"Comment [Barbarian encampments provide captives~]"
+					"Comment [Barbarian encampments provide captives]"
 					"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [100]% chance><hidden from users>",
 					"[-50]% Unhappiness from [Population] [in all cities]",
 					"[All] units gain the [Plantoid] promotion",
