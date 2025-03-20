@@ -1,9 +1,10 @@
 [	/* Ancient Era */
 	{
-		"name": "Phytotechnician",
+		"name": "Seedcaster"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Worker",
 		"unitType": "Civilian",
+		"requiredTech": "Phytotech",
 		"movement": 3,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
@@ -12,10 +13,11 @@
 		]
 	},
 	{
-		"name": "Cultivator",
+		"name": "Gardener"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Settler",
 		"unitType": "Civilian",
+		"requiredTech": "Phytotech",
 		"movement": 3,
 		"cost": 75,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
@@ -30,6 +32,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Scout",
 		"unitType": "Scout",
+		"requiredTech": "Phytotech",
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
@@ -43,7 +46,8 @@
 			"May travel on Water tiles without embarking",
 			"[+1] Sight",
 			"Withdraws before melee combat <with [100]% chance>",
-			"Cannot attack"],
+			"Cannot attack"]
+		"promotions": ["Ignore terrain cost"],
 		"civilopediaText": [
 			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
 		]
@@ -53,6 +57,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Warrior",
 		"unitType": "Sword",
+		"requiredTech": "Phytotech",
 		"movement": 3,
 		"strength": 18,
 		"cost": 40,
@@ -72,6 +77,8 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
+		"requiredTech": "Archery",
+		"requiredTech": "Phytotech",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -84,8 +91,10 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Work Boats",
 		"unitType": "Civilian Water",
+		"requiredTech": "Phytotech",
 		"movement": 5,
 		"cost": 30,
+		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
@@ -94,9 +103,11 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Trireme",
 		"unitType": "Melee Water",
+		"requiredTech": "Phytotech",
 		"movement": 5,
 		"strength": 10,
 		"cost": 45,
+		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
@@ -111,6 +122,7 @@
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
+		"requiredTech": "Phytotech",
 		"requiredResource": "Wheat",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
