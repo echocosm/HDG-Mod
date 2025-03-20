@@ -78,7 +78,6 @@
 		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Phytotech",
-		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -94,7 +93,6 @@
 		"movement": 5,
 		"cost": 30,
 		"requiredTech": "Phytotech",
-		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
@@ -107,7 +105,6 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Phytotech",
-		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
@@ -123,7 +120,6 @@
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "Phytotech",
-		"requiredTech": "The Wheel",
 		"requiredResource": "Wheat",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
