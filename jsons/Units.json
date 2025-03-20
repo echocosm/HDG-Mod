@@ -1,6 +1,6 @@
 [	/* Ancient Era */
 	{
-		"name": "Seedcaster"
+		"name": "Phytotechnician"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Worker",
 		"unitType": "Civilian",
@@ -12,7 +12,7 @@
 		]
 	},
 	{
-		"name": "Gardener"
+		"name": "Cultivator"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Settler",
 		"unitType": "Civilian",
@@ -43,9 +43,7 @@
 			"May travel on Water tiles without embarking",
 			"[+1] Sight",
 			"Withdraws before melee combat <with [100]% chance>",
-			"Cannot attack",
-			"May upgrade to [Archer] through ruins-like effects",
-			"Can upgrade to [Musketman]"]
+			"Cannot attack"
 		"promotions": ["Ignore terrain cost"],
 		"civilopediaText": [
 			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
@@ -123,20 +121,5 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
-	},
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
 	}
 ]
