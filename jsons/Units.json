@@ -43,8 +43,7 @@
 			"May travel on Water tiles without embarking",
 			"[+1] Sight",
 			"Withdraws before melee combat <with [100]% chance>",
-			"Cannot attack"
-		"promotions": ["Ignore terrain cost"],
+			"Cannot attack"],
 		"civilopediaText": [
 			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
 		]
