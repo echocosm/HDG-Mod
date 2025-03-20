@@ -17,6 +17,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Settler",
 		"unitType": "Civilian",
+		"promotions": ["Affini"],
 		"movement": 3,
 		"cost": 75,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
@@ -31,6 +32,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Scout",
 		"unitType": "Scout",
+		"promotions": ["Affini"],
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
@@ -45,7 +47,6 @@
 			"[+1] Sight",
 			"Withdraws before melee combat <with [100]% chance>",
 			"Cannot attack"]
-		"promotions": ["Ignore terrain cost"],
 		"civilopediaText": [
 			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
 		]
@@ -55,6 +56,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Warrior",
 		"unitType": "Sword",
+		"promotions": ["Affini"],
 		"movement": 3,
 		"strength": 18,
 		"cost": 40,
@@ -70,6 +72,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Archer",
 		"unitType": "Archery",
+		"promotions": ["Affini"],
 		"movement": 3,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -87,6 +90,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Work Boats",
 		"unitType": "Civilian Water",
+		"promotions": ["Affini"],
 		"movement": 5,
 		"cost": 30,
 		"requiredTech": "Sailing",
@@ -98,6 +102,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Trireme",
 		"unitType": "Melee Water",
+		"promotions": ["Affini"],
 		"movement": 5,
 		"strength": 10,
 		"cost": 45,
@@ -112,6 +117,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Chariot Archer",
 		"unitType": "Archery",
+		"promotions": ["Affini"],
 		"movement": 5,
 		"strength": 6,
 		"rangedStrength": 10,
