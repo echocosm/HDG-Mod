@@ -1,4 +1,122 @@
-[
+[	/* Ancient Era */
+	{
+		"name": "Seedcaster"
+		"replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 3,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 50
+		"civilopediaText": [
+			{"text": "Experts in phytotechnology devoted to improving the lives of all sophonts"}
+		]
+	},
+	{
+		"name": "Gardener"
+		"replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 75,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+		"civilopediaText": [
+			{"text": "Affini who specialize in cultivating new cores, capable of building whole Compact communities"}
+		]
+	},
+	{
+		"name": "Glider",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"May enter foreign tiles without open borders",
+			"Can pass through impassable tiles",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Land] units",
+			"May travel on Water tiles without embarking",
+			"[+1] Sight",
+			"Withdraws before melee combat <with [100]% chance>",
+			"Cannot attack",
+			"May upgrade to [Archer] through ruins-like effects",
+			"Can upgrade to [Musketman]"]
+		"promotions": ["Ignore terrain cost"],
+		"civilopediaText": [
+			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
+		]
+	},
+	{
+		"name": "Wrangler",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 18,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Subjugator",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Affini who specialize in subduing sophonts with their vines"}
+		]
+	},
+	{
+		"name": "Sharpshooter",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+		"civilopediaText": [
+			{"text": "Affini with grafts that shoot xenodrug-laced darts from a distance"}
+		]
+	},
+	{
+		"name": "Aquatic Bulb",
+		"replaces": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 5,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	{
+		"name": "Sargassum",
+		"replaces": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Grain Strider",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Wheat",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
 	{
 		"name": "Phasers",
 		"unitType": "Ranged",
