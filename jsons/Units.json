@@ -4,6 +4,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Worker",
 		"unitType": "Civilian",
+		"promotions": ["Affini"],
 		"movement": 3,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
