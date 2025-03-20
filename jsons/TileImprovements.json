@@ -1,6 +1,7 @@
 [	// Military improvement
 	{
 		"name": "Thicket",
+		"replaces": "Fort",
 		"uniqueTo": "The Affini Compact",
 		"terrainsCanBeBuiltOn": ["Land","Water"],
 		"turnsToBuild": 2,
@@ -23,6 +24,7 @@
 	},
 	{
 		"name": "Castle Tree",
+		"replaces": "Fort",
 		"uniqueTo": "The Affini Compact",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 6,
