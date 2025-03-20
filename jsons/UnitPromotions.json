@@ -7,17 +7,5 @@
 					"[+20]% Strength <vs cities>",
 					"May capture killed [Military] units", 
 					"[+15] HP when healing"]
-	},
-	{
-		"name": "Captive",
-		"uniques": ["Uncapturable", "May capture killed [Military] units", "[+15] HP when healing"]
-	},
-	{
-		"name": "Tree-Hugger",
-		"uniques": ["Uncapturable", "May capture killed [Military] units", "[+15] HP when healing"]
-	},
-	{
-		"name": "Floret",
-		"uniques": ["Uncapturable", "[+20]% Strength <vs [Military] units>", "[+15] HP when healing"]
 	}
 ]
