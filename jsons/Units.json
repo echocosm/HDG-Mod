@@ -1,10 +1,10 @@
 [	/* Ancient Era */
 	{
-		"name": "Seedcaster"
+		"name": "Phytotechnician"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Worker",
 		"unitType": "Civilian",
-		"requiredTech": "Phytotech",
+		"promotions": "Affini",
 		"movement": 3,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
@@ -13,11 +13,11 @@
 		]
 	},
 	{
-		"name": "Gardener"
+		"name": "Cultivator"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Settler",
 		"unitType": "Civilian",
-		"requiredTech": "Phytotech",
+		"promotions": "Affini",
 		"movement": 3,
 		"cost": 75,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
@@ -32,7 +32,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Scout",
 		"unitType": "Scout",
-		"requiredTech": "Phytotech",
+		"promotions": "Affini",
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
@@ -57,7 +57,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Warrior",
 		"unitType": "Sword",
-		"requiredTech": "Phytotech",
+		"promotions": "Affini",
 		"movement": 3,
 		"strength": 18,
 		"cost": 40,
@@ -78,7 +78,7 @@
 		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Archery",
-		"requiredTech": "Phytotech",
+		"promotions": "Affini",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
@@ -91,7 +91,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Work Boats",
 		"unitType": "Civilian Water",
-		"requiredTech": "Phytotech",
+		"promotions": "Affini",
 		"movement": 5,
 		"cost": 30,
 		"requiredTech": "Sailing",
@@ -103,7 +103,7 @@
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Trireme",
 		"unitType": "Melee Water",
-		"requiredTech": "Phytotech",
+		"promotions": "Affini",
 		"movement": 5,
 		"strength": 10,
 		"cost": 45,
@@ -122,7 +122,7 @@
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "Phytotech",
+		"promotions": "Affini",
 		"requiredResource": "Wheat",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
