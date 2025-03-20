@@ -1,6 +1,6 @@
 [	/* Ancient Era */
 	{
-		"name": "Phytotechnician"
+		"name": "Phytotechnician",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Worker",
 		"unitType": "Civilian",
@@ -13,7 +13,7 @@
 		]
 	},
 	{
-		"name": "Cultivator"
+		"name": "Cultivator",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Settler",
 		"unitType": "Civilian",
