@@ -2,7 +2,7 @@
 	{
 		"columnNumber": 0,
 		"era": "Ancient era",
-		"techCost": 0,
+		"techCost": 1,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
