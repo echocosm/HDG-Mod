@@ -7,10 +7,10 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Plant-Tech",
-				"row": 11,
+				"name": "Affini Phytotech",
+				"row": 16,
 				"quote": "'Essentially affini are plant-tech cyborg/robots in a weird planty synthesis of tech and biomass.' - humandomestication.guide/affini-compact/affini",
-				"uniques": ["Starting tech","Only available <for [The Affini Compact] Civilizations>"]
+				"uniques": ["Only available <for [The Affini Compact] Civilizations>"]
 			}
 		]
 	}
