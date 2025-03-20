@@ -7,10 +7,16 @@
 		"wonderCost": 185,
 		"techs": [
 			{
+				"name": "Agriculture",
+				"row": 6,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": ["Starting tech <for [non-[The Affini Compact]] Civilizations>"]
+			},
+			{
 				"name": "Affini Phytotech",
 				"row": 16,
-				"quote": "'Essentially affini are plant-tech cyborg/robots in a weird planty synthesis of tech and biomass.' - humandomestication.guide/affini-compact/affini",
-				"uniques": ["Only available <for [The Affini Compact] Civilizations>"]
+				"quote": "'Essentially, Affini are plant-tech cyborg/robots in a weird planty synthesis of tech and biomass.' - HDG Wiki",
+				"uniques": ["Starting tech <for [The Affini Compact] Civilizations>"]
 			}
 		]
 	}
