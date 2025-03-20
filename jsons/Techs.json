@@ -8,7 +8,7 @@
 		"techs": [
 			{
 				"name": "Plant-Tech",
-				"row": 7,
+				"row": 11,
 				"quote": "'Essentially affini are plant-tech cyborg/robots in a weird planty synthesis of tech and biomass.' - humandomestication.guide/affini-compact/affini",
 				"uniques": ["Starting tech","Only available <for [The Affini Compact] Civilizations>"]
 			}
