@@ -71,6 +71,7 @@
 	{
 		"name": "Greenhouse",
 		"replaces": "Plantation",
+		"uniqueTo": "The Affini Compact",
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
