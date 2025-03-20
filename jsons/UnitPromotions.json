@@ -5,7 +5,7 @@
 					"Uncapturable",
 					"[+20]% Strength <vs [Military] units>",
 					"[+20]% Strength <vs cities>",
-					"May capture killed [Military] units <with [100]% chance>", 
+					"May capture killed [Military] units", 
 					"[+15] HP when healing"]
 	}
 ]
