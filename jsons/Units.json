@@ -60,7 +60,6 @@
 		"strength": 18,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Subjugator",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
