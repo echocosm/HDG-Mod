@@ -6,14 +6,12 @@
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
-			{
-				"name": "Agriculture",
+			{	"name": "Agriculture",
 				"row": 6,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Tech]"]
 			},
-			{
-				"name": "Phytotech",
+			{	"name": "Phytotech",
 				"row": 16,
 				"quote": "'Essentially, Affini are plant-tech cyborg/robots in a weird planty synthesis of tech and biomass.' - HDG Wiki",
 				"uniques": ["Only available <for [The Affini Compact] Civilizations><hidden from users>","Comment [Affini Tech]"]
@@ -28,28 +26,24 @@
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
-			{
-				"name": "Cyberponics",
+			{	"name": "Cyberponics",
 				"row": 12,
 				"prerequisites": ["Phytotech"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Nanotechnology woven into the each cell allows crops to self-monitor and self-correct their growth' - Miss Spira Nomu, First Bloom"
 			},
-			{
-				"name": "Macroxenopharmacology",
+			{	"name": "Macroxenopharmacology",
 				"row": 15,
 				"prerequisites": ["Phytotech"],
 				"quote": "'Xenodrugs are as old as Domestication. But every new species has unique biochemistry, and thus requires a unique approach to their care' - Miss Spira Nomu, First Bloom"
 			},
-			{
-				"name": "Medical Ballistics",
+			{	"name": "Medical Ballistics",
 				"row": 17,
 				"prerequisites": ["Phytotech"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'The only thing more satisfying than transquilizing a cute terran from afar, is the look in their eyes when they finally wake up in your vines~' - Miss Spira Nomu, First Bloom"
 			},
-			{
-				"name": "Phase Conveyance",
+			{	"name": "Phase Conveyance",
 				"row": 19,
 				"prerequisites": ["Phytotech"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
@@ -65,8 +59,7 @@
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
-			{
-				"name": "Microxenopharmacology",
+			{	"name": "Microxenopharmacology",
 				"row": 15,
 				"prerequisites": ["Macroxenopharmacology"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
