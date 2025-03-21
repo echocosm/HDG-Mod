@@ -1,1 +1,8 @@
-{"modUrl":"https://github.com/echocosm/HDG-Mod","defaultBranch":"main","author":"echocosm","lastUpdated":"2025-03-20T00:42:35Z"}
+{"modUrl":"https://github.com/echocosm/HDG-Mod",
+  "defaultBranch":"main",
+  "author":"echocosm",
+  "lastUpdated":"2025-03-20T00:42:35Z"
+  "isBaseRuleset": true,
+  //"uniques": ["Disable religion"],
+  "cityWorkRange": 5,
+}
