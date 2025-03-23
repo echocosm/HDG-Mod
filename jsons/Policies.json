@@ -9,7 +9,6 @@
             "Scientific": 5
         },
         "uniques": [
-            "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
         ],
@@ -72,7 +71,7 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]","[+1 Culture] [in all cities]"],
+        "uniques": ["[+1 Culture] [in all cities]"],
         "policies": [
             {	"name": "Republic",
                 "uniques": [
@@ -134,7 +133,6 @@
             "Scientific": 5
         },
         "uniques": [
-            "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
@@ -200,7 +198,6 @@
             "Scientific": 0
         },
         "uniques": [
-            "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "Only available <before adopting [Rationalism]>",
@@ -259,7 +256,6 @@
             "Scientific": 5
         },
         "uniques": [
-            "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
             "[-25]% City-State Influence degradation",
             "[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
         ],
@@ -324,10 +320,11 @@
         "policies": [
             {	"name": "Naval Tradition",
                 "uniques": [
-                    "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
                     "Free [Great General] appears"
+                    // "[+2] Movement <for [Great Admiral] units>"
+                    // ToDo: Should be "Free [Great Admiral] appears"
                 ],
                 "row": 1,
                 "column": 2
@@ -374,251 +371,7 @@
             }
         ]
     },
-    {	"name": "Rationalism",
-        "era": "Renaissance era",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 10,
-            "Domination": 10,
-            "Scientific": 10
-        },
-        "uniques": [
-            "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
-            "[+15]% [Science] <while the empire is happy>",
-            "Only available <before adopting [Piety]>"
-        ],
-        "policies": [
-            {	"name": "Secularism",
-                "uniques": [
-                    "[+2 Science] from every specialist [in all cities]"
-                ],
-                "row": 1,
-                "column": 2
-            },
-            {	"name": "Humanism",
-                "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]",
-                    "[-50]% weight to this choice for AI decisions"
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {	"name": "Free Thought",
-                "uniques": [
-                    "[+1 Science] from every [Trading post]",
-                    "[+17]% [Science] from every [University]"
-                ],
-                "requires": ["Secularism"],
-                "row": 2,
-                "column": 2
-            },
-            {	"name": "Sovereignty",
-                "uniques": ["[+1 Gold] from all [Science] buildings"],
-                "requires": ["Humanism"],
-                "row": 2,
-                "column": 4
-            },
-            {	"name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+50]%", "[-100]% weight to this choice for AI decisions"],
-                "requires": ["Free Thought"],
-                "row": 3,
-                "column": 2
-            },
-            {	"name": "Rationalism Complete",
-                "uniques": [
-                    "[2] Free Technologies",
-                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
-                ]
-            }
-        ]
-    },
-    {	"name": "Freedom",
-        "era": "Industrial era",
-        "priorities": {
-            "Neutral": 5,
-            "Cultural": 10,
-            "Diplomatic": 5,
-            "Domination": 5,
-            "Scientific": 10
-        },
-        "uniques": [
-            "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
-            "[+25]% Great Person generation [in all cities]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>"
-        ],
-        "policies": [
-            {	"name": "Constitution",
-                "uniques": ["[+2 Culture] from every [Wonder]", "[-100]% weight to this choice for AI decisions"],
-                "row": 1,
-                "column": 1
-            },
-            {	"name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions"],
-                "row": 1,
-                "column": 3
-            },
-            {	"name": "Civil Society",
-                "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {	"name": "Free Speech",
-                "uniques": ["[8] units cost no maintenance"],
-                "requires": ["Constitution"],
-                "row": 2,
-                "column": 1
-            },
-            {	"name": "Democracy",
-                "uniques": [
-                    "[-50]% Unhappiness from [Specialists] [in all cities]"
-                ],
-                "requires": ["Civil Society"],
-                "row": 2,
-                "column": 5
-            },
-            {	"name": "Freedom Complete",
-                "uniques": [
-                    "[+100]% Yield from every [Great Improvement]",
-                    "[+50]% Golden Age length",
-                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
-                ]
-            }
-        ]
-    },
-    {	"name": "Autocracy",
-        "era": "Industrial era",
-        "priorities": {
-            "Neutral": 5,
-            "Cultural": 5,
-            "Diplomatic": 5,
-            "Domination": 10,
-            "Scientific": 5
-        },
-        "uniques": [
-            "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
-            "[-33]% maintenance costs <for [All] units>",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-            "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>"
-        ],
-        "policies": [
-            {	"name": "Populism",
-                "uniques": ["[+25]% Strength <for [Wounded] units>", "[+100]% weight to this choice for AI decisions"],
-                "row": 1,
-                "column": 2
-            },
-            {	"name": "Militarism",
-                "uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
-                "row": 1,
-                "column": 4
-            },
-            {	"name": "Fascism",
-                "uniques": [
-                    "Quantity of strategic resources produced by the empire +[100]%",
-                    "[+2] Movement <for [Great General] units>"
-                ],
-                "requires": ["Populism", "Militarism"],
-                "row": 2,
-                "column": 2
-            },
-            {	"name": "Police State",
-                "uniques": [
-                    "[+3 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[-25]% enemy spy effectiveness [in all cities]"
-                ],
-                "requires": ["Militarism"],
-                "row": 2,
-                "column": 4
-            },
-            {	"name": "Total War",
-                "uniques": [
-                    "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] XP [in all cities]"
-                ],
-                "requires": ["Police State", "Fascism"],
-                "row": 3,
-                "column": 3
-            },
-            {	"name": "Autocracy Complete",
-                "uniques": [
-                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                ]
-            }
-        ]
-    },
-    {	"name": "Order",
-        "era": "Industrial era",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 5,
-            "Diplomatic": 10,
-            "Domination": 5,
-            "Scientific": 5
-        },
-        "uniques": [
-            "Only available <for [non-[The Affini Compact]] Civilizations><hidden from users>","Comment [Terran Policy]",
-            "[+1 Happiness] [in all cities]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>"
-        ],
-        "policies": [
-            {	"name": "United Front",
-                "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {	"name": "Planned Economy",
-                "uniques": [
-                    "[+25]% [Science] from every [Factory]",
-                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {	"name": "Nationalism",
-                "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {	"name": "Socialism",
-                "requires": ["Planned Economy"],
-                "uniques": [
-                    "[-15]% maintenance cost for buildings [in all cities]"
-                ],
-                "row": 2,
-                "column": 3
-            },
-            {	"name": "Communism",
-                "requires": ["Socialism"],
-                "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
-                ],
-                "row": 3,
-                "column": 3
-            },
-            {	"name": "Order Complete",
-                "uniques": [
-                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
-                ]
-            }
-        ]
-    }
-    {	"name": "Domestication",
+	{	"name": "Domestication",
         "era": "Ancient era",
         "priorities": {
             "Neutral": 5,
@@ -684,5 +437,246 @@
                 ]
             }
         ]
+    },
+    {	"name": "Rationalism",
+        "era": "Renaissance era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+15]% [Science] <while the empire is happy>",
+            "Only available <before adopting [Piety]>"
+        ],
+        "policies": [
+            {	"name": "Secularism",
+                "uniques": [
+                    "[+2 Science] from every specialist [in all cities]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {	"name": "Humanism",
+                "uniques": [
+                    "[+1 Happiness] from every [University]",
+                    "[+1 Happiness] from every [Observatory]",
+                    "[+1 Happiness] from every [Public School]",
+                    "[-50]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {	"name": "Free Thought",
+                "uniques": [
+                    "[+1 Science] from every [Trading post]",
+                    "[+17]% [Science] from every [University]"
+                ],
+                "requires": ["Secularism"],
+                "row": 2,
+                "column": 2
+            },
+            {	"name": "Sovereignty",
+                "uniques": ["[+1 Gold] from all [Science] buildings"],
+                "requires": ["Humanism"],
+                "row": 2,
+                "column": 4
+            },
+            {	"name": "Scientific Revolution",
+                "uniques": ["Science gained from research agreements [+50]%", "[-100]% weight to this choice for AI decisions"],
+                "requires": ["Free Thought"],
+                "row": 3,
+                "column": 2
+            },
+            {	"name": "Rationalism Complete",
+                "uniques": [
+                    "[2] Free Technologies",
+                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {	"name": "Freedom",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 10,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+25]% Great Person generation [in all cities]",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Order]>"
+        ],
+        "policies": [
+            {	"name": "Constitution",
+                "uniques": ["[+2 Culture] from every [Wonder]", "[-100]% weight to this choice for AI decisions"],
+                "row": 1,
+                "column": 1
+            },
+            {	"name": "Universal Suffrage",
+                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions"],
+                "row": 1,
+                "column": 3
+            },
+            {	"name": "Civil Society",
+                "uniques": [
+                    "[-50]% Food consumption by specialists [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {	"name": "Free Speech",
+                "uniques": ["[8] units cost no maintenance"],
+                "requires": ["Constitution"],
+                "row": 2,
+                "column": 1
+            },
+            {	"name": "Democracy",
+                "uniques": [
+                    "[-50]% Unhappiness from [Specialists] [in all cities]"
+                ],
+                "requires": ["Civil Society"],
+                "row": 2,
+                "column": 5
+            },
+            {	"name": "Freedom Complete",
+                "uniques": [
+                    "[+100]% Yield from every [Great Improvement]",
+                    "[+50]% Golden Age length",
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {	"name": "Autocracy",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 10,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[-33]% maintenance costs <for [All] units>",
+            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Only available <before adopting [Order]>",
+            "Only available <before adopting [Freedom]>"
+        ],
+        "policies": [
+            {	"name": "Populism",
+                "uniques": ["[+25]% Strength <for [Wounded] units>", "[+100]% weight to this choice for AI decisions"],
+                "row": 1,
+                "column": 2
+            },
+            {	"name": "Militarism",
+                "uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
+                "row": 1,
+                "column": 4
+            },
+            {	"name": "Fascism",
+                "uniques": [
+                    "Quantity of strategic resources produced by the empire +[100]%",
+                    "[+2] Movement <for [Great General] units>"
+                ],
+                "requires": ["Populism", "Militarism"],
+                "row": 2,
+                "column": 2
+            },
+            {	"name": "Police State",
+                "uniques": [
+                    "[+3 Happiness] from every [Courthouse]",
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[-25]% enemy spy effectiveness [in all cities]"
+                ],
+                "requires": ["Militarism"],
+                "row": 2,
+                "column": 4
+            },
+            {	"name": "Total War",
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "New [Military] units start with [15] XP [in all cities]"
+                ],
+                "requires": ["Police State", "Fascism"],
+                "row": 3,
+                "column": 3
+            },
+            {	"name": "Autocracy Complete",
+                "uniques": [
+                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                ]
+            }
+        ]
+    },
+    {	"name": "Order",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 5,
+            "Diplomatic": 10,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+1 Happiness] [in all cities]",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Freedom]>"
+        ],
+        "policies": [
+            {	"name": "United Front",
+                "uniques": [
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {	"name": "Planned Economy",
+                "uniques": [
+                    "[+25]% [Science] from every [Factory]",
+                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {	"name": "Nationalism",
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {	"name": "Socialism",
+                "requires": ["Planned Economy"],
+                "uniques": [
+                    "[-15]% maintenance cost for buildings [in all cities]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {	"name": "Communism",
+                "requires": ["Socialism"],
+                "uniques": [
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {	"name": "Order Complete",
+                "uniques": [
+                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
     }
+
     ]
