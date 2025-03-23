@@ -75,7 +75,7 @@
 			},
 			{
 				"name": "Xenolinguistics",
-				"row": 3,
+				"row": 13,
 				"prerequisites": ["Pottery"],
 				"quote": "'The ability to speak to the terrans in their own language is vital to impressing their new reality upon them' - Miss Spira Nomu, First Bloom"
 			},
