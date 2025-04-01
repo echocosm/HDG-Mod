@@ -1,31 +1,19 @@
-[
+[	/* Ancient Era */
 	{
-		"name": "Phytotechnician",
+		"name": "Phytotechnician"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Worker",
 		"unitType": "Civilian",
-		"promotions": "Affini",
+		"promotions": ["Affini"],
 		"movement": 3,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 50,
+		"cost": 50
 		"civilopediaText": [
-			{ "text": "Experts in phytotechnology devoted to improving the lives of all sophonts" },
-			{ "separator": true },
-			{
-				"text": "This line is red and links to the Scout including icons",
-				"link": "Unit/Scout",
-				"color": "red"
-			},
-			{
-				"text": "A big fat header sporting a golden star",
-				"header": 1,
-				"starred": true,
-				"color": "#ffeb7f"
-			}
+			{"text": "Experts in phytotechnology devoted to improving the lives of all sophonts"}
 		]
 	},
 	{
-		"name": "Cultivator",
+		"name": "Cultivator"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Settler",
 		"unitType": "Civilian",
@@ -34,7 +22,7 @@
 		"cost": 75,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 20
 		"civilopediaText": [
 			{"text": "Affini who specialize in cultivating new cores, capable of building whole Compact communities"}
 		]
@@ -58,7 +46,7 @@
 			"May travel on Water tiles without embarking",
 			"[+1] Sight",
 			"Withdraws before melee combat <with [100]% chance>",
-			"Cannot attack"],
+			"Cannot attack"]
 		"civilopediaText": [
 			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
 		]
@@ -92,7 +80,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow",
+		"attackSound": "arrow"
 		"civilopediaText": [
 			{"text": "Affini with grafts that shoot xenodrug-laced darts from a distance"}
 		]
