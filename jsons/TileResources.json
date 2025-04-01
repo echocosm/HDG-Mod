@@ -21,7 +21,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
-		"improvement": ["Camp","Sanctuary"],
+		"improvemedBy": ["Camp","Sanctuary"],
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
 					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
