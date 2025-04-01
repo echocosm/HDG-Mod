@@ -1,0 +1,143 @@
+[
+	{
+		"name": "Phytotechnician",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Worker",
+		"unitType": "Civilian",
+		"promotions": "Affini",
+		"movement": 3,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 50,
+		"civilopediaText": [
+			{ "text": "Experts in phytotechnology devoted to improving the lives of all sophonts" },
+			{ "separator": true },
+			{
+				"text": "This line is red and links to the Scout including icons",
+				"link": "Unit/Scout",
+				"color": "red"
+			},
+			{
+				"text": "A big fat header sporting a golden star",
+				"header": 1,
+				"starred": true,
+				"color": "#ffeb7f"
+			}
+		]
+	},
+	{
+		"name": "Cultivator",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Settler",
+		"unitType": "Civilian",
+		"promotions": ["Affini"],
+		"movement": 3,
+		"cost": 75,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20,
+		"civilopediaText": [
+			{"text": "Affini who specialize in cultivating new cores, capable of building whole Compact communities"}
+		]
+	},
+	{
+		"name": "Glider",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"promotions": ["Affini"],
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"May enter foreign tiles without open borders",
+			"Can pass through impassable tiles",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Land] units",
+			"May travel on Water tiles without embarking",
+			"[+1] Sight",
+			"Withdraws before melee combat <with [100]% chance>",
+			"Cannot attack"],
+		"civilopediaText": [
+			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
+		]
+	},
+	{
+		"name": "Wrangler",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"promotions": ["Affini"],
+		"movement": 3,
+		"strength": 18,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Affini who specialize in subduing sophonts with their vines"}
+		]
+	},
+	{
+		"name": "Sharpshooter",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"promotions": ["Affini"],
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Affini with grafts that shoot xenodrug-laced darts from a distance"}
+		]
+	},
+	{
+		"name": "Aquatic Bulb",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Work Boats",
+		"unitType": "Civilian Water",
+		"promotions": ["Affini"],
+		"movement": 5,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	{
+		"name": "Sargassum",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Trireme",
+		"unitType": "Melee Water",
+		"promotions": ["Affini"],
+		"movement": 5,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Grain Strider",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"promotions": ["Affini"],
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredResource": "Wheat",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	}
+]
