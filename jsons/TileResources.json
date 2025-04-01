@@ -383,6 +383,11 @@
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
+	{	"name": "Florn",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Doesn't generate naturally","Excluded from map editor","AI will buy at [4] Gold"]
+	},
 	{	"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
