@@ -273,7 +273,7 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-	{	"name": "Ivory",
+	{	"name": "Elephants",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
