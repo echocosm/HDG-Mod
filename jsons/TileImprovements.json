@@ -74,7 +74,14 @@
 		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
-
+	{	"name": "Free Exchange",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Trapping",
+		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
 	{	"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
