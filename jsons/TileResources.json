@@ -1,5 +1,5 @@
 [
-	{	"name": "Cows",
+	{	"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
@@ -17,7 +17,7 @@
 		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
 	},
-	{	"name": "Rabbits",
+	{	"name": "Deer",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
@@ -191,7 +191,7 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
-	{	"name": "Foxes",
+	{	"name": "Furs",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
@@ -276,7 +276,7 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-	{	"name": "Elephants",
+	{	"name": "Ivory",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
@@ -357,7 +357,7 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
 	},
-	{	"name": "Shellfish",
+	{	"name": "Pearls",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
@@ -425,7 +425,7 @@
 		"improvement": ["Plantation","Greenhouse"]
 	},
 
-	{	"name": "Crabs",
+	{	"name": "Crab",
 		"resourceType": ["Fishing Boats", "Mangrove"],
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
