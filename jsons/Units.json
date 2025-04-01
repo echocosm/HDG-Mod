@@ -1,6 +1,5 @@
 [
-	{
-		"name": "Phytotechnician"
+	{	"name": "Phytotechnician"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Worker",
 		"unitType": "Civilian",
@@ -12,8 +11,7 @@
 			{"text": "Experts in phytotechnology devoted to improving the lives of all sophonts"}
 		]
 	},
-	{
-		"name": "Cultivator"
+	{	"name": "Cultivator"
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Settler",
 		"unitType": "Civilian",
@@ -27,8 +25,7 @@
 			{"text": "Affini who specialize in cultivating new cores, capable of building whole Compact communities"}
 		]
 	},
-	{
-		"name": "Glider",
+	{	"name": "Glider",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Scout",
 		"unitType": "Scout",
@@ -51,8 +48,7 @@
 			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
 		]
 	},
-	{
-		"name": "Wrangler",
+	{	"name": "Wrangler",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Warrior",
 		"unitType": "Sword",
@@ -67,8 +63,7 @@
 			{"text": "Affini who specialize in subduing sophonts with their vines"}
 		]
 	},
-	{
-		"name": "Sharpshooter",
+	{	"name": "Sharpshooter",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Archer",
 		"unitType": "Archery",
@@ -85,8 +80,7 @@
 			{"text": "Affini with grafts that shoot xenodrug-laced darts from a distance"}
 		]
 	},
-	{
-		"name": "Aquatic Bulb",
+	{	"name": "Aquatic Bulb",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Work Boats",
 		"unitType": "Civilian Water",
@@ -97,8 +91,7 @@
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
-	{
-		"name": "Sargassum",
+	{	"name": "Sargassum",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Trireme",
 		"unitType": "Melee Water",
@@ -112,8 +105,7 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
-	{
-		"name": "Grain Strider",
+	{	"name": "Grain Strider",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Chariot Archer",
 		"unitType": "Archery",
@@ -128,12 +120,34 @@
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
-	{
-		"name": "Great Merchant",
+	{	"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{	"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{	"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{	"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	}
 ]
