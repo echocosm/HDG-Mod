@@ -1,19 +1,31 @@
-[	/* Ancient Era */
+[
 	{
-		"name": "Phytotechnician"
+		"name": "Phytotechnician",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Worker",
 		"unitType": "Civilian",
-		"promotions": ["Affini"],
+		"promotions": "Affini",
 		"movement": 3,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 50
+		"cost": 50,
 		"civilopediaText": [
-			{"text": "Experts in phytotechnology devoted to improving the lives of all sophonts"}
+			{ "text": "Experts in phytotechnology devoted to improving the lives of all sophonts" },
+			{ "separator": true },
+			{
+				"text": "This line is red and links to the Scout including icons",
+				"link": "Unit/Scout",
+				"color": "red"
+			},
+			{
+				"text": "A big fat header sporting a golden star",
+				"header": 1,
+				"starred": true,
+				"color": "#ffeb7f"
+			}
 		]
 	},
 	{
-		"name": "Cultivator"
+		"name": "Cultivator",
 		"uniqueTo": "The Affini Compact",
 		"replaces": "Settler",
 		"unitType": "Civilian",
@@ -22,7 +34,7 @@
 		"cost": 75,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
 		"civilopediaText": [
 			{"text": "Affini who specialize in cultivating new cores, capable of building whole Compact communities"}
 		]
@@ -46,7 +58,7 @@
 			"May travel on Water tiles without embarking",
 			"[+1] Sight",
 			"Withdraws before melee combat <with [100]% chance>",
-			"Cannot attack"]
+			"Cannot attack"],
 		"civilopediaText": [
 			{"text": "Lightweight affini who glide high in the atmosphere, out of reach"}
 		]
@@ -80,7 +92,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
 			{"text": "Affini with grafts that shoot xenodrug-laced darts from a distance"}
 		]
@@ -127,5 +139,65 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
-	}
+	},
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 ]
