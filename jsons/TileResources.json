@@ -428,7 +428,7 @@
 	},
 
 	{	"name": "Crabs",
-		"resourceType": ["Fishing Boats", "Mangrove"],
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"gold": 1,
