@@ -1,7 +1,5 @@
 [
-	// Bonus resources
-	{
-		"name": "Cattle",
+	{	"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
@@ -10,8 +8,7 @@
 		"uniques": ["Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
 					"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"]
 	},
-	{
-		"name": "Sheep",
+	{	"name": "Sheep",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"food": 1,
@@ -20,8 +17,7 @@
 		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
 	},
-	{
-		"name": "Deer",
+	{	"name": "Deer",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
 		"food": 1,
@@ -34,8 +30,7 @@
 					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
 					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
 	},
-	{
-		"name": "Bananas",
+	{	"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
@@ -44,8 +39,7 @@
 		"uniques": ["Generated on every [14] tiles <in [Jungle] tiles>",
 					"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
 	},
-	{
-		"name": "Wheat",
+	{	"name": "Wheat",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
 		"food": 1,
@@ -55,8 +49,7 @@
 					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
 					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
 	},
-	{
-		"name": "Stone",
+	{	"name": "Stone",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
 		"production": 1,
@@ -66,28 +59,23 @@
 					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
 					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
-	{
-		"name": "Fish",
+	{	"name": "Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
 	},
-	/*
-	{
-		"name": "Bison",
+
+	{	"name": "Bison",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1}
 	},
-	*/
 
-	// Strategic resources
-	{
-		"name": "Horses",
+	{	"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
@@ -105,8 +93,7 @@
 		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
-	{
-		"name": "Iron",
+	{	"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
@@ -129,8 +116,7 @@
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
-	{
-		"name": "Coal",
+	{	"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Industrialization",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
@@ -151,8 +137,7 @@
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
-	{
-		"name": "Oil",
+	{	"name": "Oil",
 		"resourceType": "Strategic",
 		"revealedBy": "Biology",
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
@@ -174,8 +159,7 @@
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
-	{
-		"name": "Aluminum",
+	{	"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Electricity",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
@@ -190,8 +174,7 @@
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
-	{
-		"name": "Uranium",
+	{	"name": "Uranium",
 		"resourceType": "Strategic",
 		"revealedBy": "Atomic Theory",
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
@@ -208,9 +191,7 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
-	// Luxury resources
-	{
-		"name": "Furs",
+	{	"name": "Furs",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
@@ -220,8 +201,7 @@
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-	{
-		"name": "Cotton",
+	{	"name": "Cotton",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
@@ -232,8 +212,7 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
-	{
-		"name": "Dyes",
+	{	"name": "Dyes",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
@@ -244,8 +223,7 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
-	{
-		"name": "Gems",
+	{	"name": "Gems",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
 		"gold": 3,
@@ -258,8 +236,7 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
 	},
-	{
-		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+	{	"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
@@ -272,8 +249,7 @@
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
 	},
-	{
-		"name": "Silver",
+	{	"name": "Silver",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 2,
@@ -290,8 +266,7 @@
 					"Doesn't generate naturally <in [{Grassland} {Hill}] tiles>"
 		]
 	},
-	{
-		"name": "Incense",
+	{	"name": "Incense",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
@@ -301,8 +276,7 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-	{
-		"name": "Ivory",
+	{	"name": "Ivory",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
@@ -313,8 +287,7 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
-	{
-		"name": "Silk",
+	{	"name": "Silk",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
@@ -325,8 +298,7 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
-	{
-		"name": "Spices",
+	{	"name": "Spices",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
@@ -350,11 +322,9 @@
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
 	},
-	{
-		"name": "Sugar",
+	{	"name": "Sugar",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
@@ -364,8 +334,7 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
 	},
-	{
-		"name": "Marble",
+	{	"name": "Marble",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"gold": 2,
@@ -390,8 +359,7 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
 	},
-	{
-		"name": "Pearls",
+	{	"name": "Pearls",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
@@ -405,20 +373,17 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-	{
-		"name": "Jewelry",
+	{	"name": "Jewelry",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
-	{
-		"name": "Porcelain",
+	{	"name": "Porcelain",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
-	{
-		"name": "Citrus",
+	{	"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
 		"food": 1,
@@ -431,8 +396,7 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Tundra] tiles>"]
 	},
-	{
-		"name": "Copper",
+	{	"name": "Copper",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
@@ -449,18 +413,16 @@
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
 	},
-	/*
-	{
-		"name": "Cocoa",
+
+	{	"name": "Cocoa",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation"
 	},
-	*/
-	{
-		"name": "Crab",
+
+	{	"name": "Crab",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
@@ -475,8 +437,7 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
 	},
-	{
-		"name": "Salt",
+	{	"name": "Salt",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
 		"gold": 1,
@@ -492,8 +453,7 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>"]
 	},
-	{
-		"name": "Truffles",
+	{	"name": "Truffles",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
