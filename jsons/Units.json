@@ -1,17 +1,11 @@
 [
-
-	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
-
-	/* Ancient Era */
-	{
-		"name": "Worker",
+	{	"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
-	{
-		"name": "Settler",
+	{	"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
@@ -19,8 +13,7 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
-	{
-		"name": "Scout",
+	{	"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
@@ -30,8 +23,7 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
-	{
-		"name": "Warrior",
+	{	"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
@@ -44,8 +36,7 @@
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
-	{
-		"name": "Maori Warrior",
+	{	"name": "Maori Warrior",
 		"unitType": "Sword",
 		"uniqueTo": "Polynesia",
 		"replaces": "Warrior",
@@ -57,8 +48,7 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
-	{
-		"name": "Jaguar",
+	{	"name": "Jaguar",
 		"unitType": "Sword",
 		"uniqueTo": "Aztecs",
 		"replaces": "Warrior",
@@ -70,8 +60,7 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
-	{
-		"name": "Brute",
+	{	"name": "Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
 		"replaces": "Warrior",
@@ -82,8 +71,7 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
-	{
-		"name": "Archer",
+	{	"name": "Archer",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 5,
@@ -94,8 +82,7 @@
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
-	{
-		"name": "Bowman",
+	{	"name": "Bowman",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 7,
