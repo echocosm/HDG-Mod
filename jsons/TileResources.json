@@ -17,9 +17,9 @@
 		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
 	},
-	{	"name": "Deer",
+	{	"name": "Rabbit",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
