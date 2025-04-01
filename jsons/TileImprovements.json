@@ -27,6 +27,7 @@
 			"Does not need removal of [Marsh]"],
 		"shortcutKey": "F"
 	},
+	
 	{	"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
@@ -48,6 +49,7 @@
 					"Does not need removal of [Jungle]"],
 		"shortcutKey": "L"
 	},
+	
 	{	"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
@@ -66,6 +68,7 @@
 		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
+	
 	{	"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
@@ -82,12 +85,20 @@
 		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
+	
 	{	"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
 		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
 	},
+	{	"name": "Sanctuary",
+		"turnsToBuild": 7,
+		"techRequired": "Xenopharmacology",
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "C"
+	},
+	
 	{	"name": "Oil well",
 		"turnsToBuild": 9,
 		"techRequired": "Biology",
