@@ -202,8 +202,8 @@
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{	"name": "Logistics",
-				"row": 7,
-				"prerequisites": ["The Wheel"],
+				"row": 17,
+				"prerequisites": ["Antigravity"],
 				"quote": "'Affini recordkeeping is second to none' - Roger Bacon"
 			},
 			{	"name": "Construction",
@@ -695,7 +695,7 @@
 		"wonderCost": 1250,
 		"techs": [
 			{	"name": "Universe Ascension Project",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'The ultimate utopian goal of the Affini Compact. For a better universe, for all' - Miss Spira Nomu, First Bloom",
