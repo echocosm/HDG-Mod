@@ -1,0 +1,111 @@
+[
+	// Ancient Era
+
+	// Always available
+	{
+		"name": "Pacification Control Center",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 3,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+	{	
+		"name": "Oath Tree",
+		"uniqueTo": "The Affini Compact",
+		"replaces": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["[-50]% Culture cost of natural border growth [in this city]","Destroyed when the city is captured"]
+	},
+	// Column 1
+	{
+		"name": "Nursery",
+		"replaces": "Granary",
+		"uniqueTo": "The Affini Compact",
+		"food": 3,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Spices] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Sugar] tiles [in this city]",
+			"[+1 Food] from [Wine] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Cyberponics"
+	},
+	{
+		"name": "Play-Hunting Grounds",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["[+10]% [Happiness] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+		"requiredTech": "Medical Ballistics",
+		"quote": "'Some Affini love to hunt their florets for play, and most florets appreciate the chemical benefits of volunteering for target practice~' - Miss Spira Nomu, First Bloom"
+	},
+	// Column 2
+	{
+		"name": "The Great Lighthouse",
+		"cost": 185,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"requiredTech": "Sailing",
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - Miss Spira Nomu, First Bloom"
+	},
+	{
+		"name": "Statuary",
+		"replaces": "Stone Works",
+		"uniqueTo": "The Affini Compact",
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "The Promise Pavillion",
+		"replaces": "Stonehenge",
+		"uniqueTo": "The Affini Compact",
+		"culture": 6,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"requiredTech": "Calendar",
+		"quote": "'This communal space is dedicated to memorializing the enduring promise of the Affini Compact, that all sophonts will be cared for' - Aristotle"
+	},
+	{
+		"name": "Office of Rituals and Records",
+		"replaces": "Library",
+		"uniqueTo": "The Affini Compact",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Grand Contract Gallery",
+		"replaces": "The Great Library",
+		"uniqueTo": "The Affini Compact",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": ["Free Technology", "Gain a free [Office of Rituals and Records] [in this city]"],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	}
+]
