@@ -127,5 +127,13 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
 	}
 ]
