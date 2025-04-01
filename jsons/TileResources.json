@@ -1,5 +1,5 @@
 [
-	{	"name": "Cattle",
+	{	"name": "Cows",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
@@ -17,7 +17,7 @@
 		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
 	},
-	{	"name": "Deer",
+	{	"name": "Rabbits",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
@@ -66,7 +66,6 @@
 		"improvemedBy": ["Fishing Boats", "Mangrove"],
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
 	},
-
 	{	"name": "Bison",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
@@ -74,7 +73,6 @@
 		"improvemedBy": ["Camp","Sanctuary"],
 		"improvementStats": {"production": 1}
 	},
-	
 	{	"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
@@ -190,8 +188,7 @@
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
-
-	{	"name": "Furs",
+	{	"name": "Foxes",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
@@ -287,7 +284,7 @@
 					"Generated near City States with weight [10]",
 					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
-	{	"name": "Silk",
+	{	"name": "Silk Moths",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
@@ -357,7 +354,7 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
 	},
-	{	"name": "Pearls",
+	{	"name": "Oysters",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
@@ -385,6 +382,11 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Doesn't generate naturally","Excluded from map editor","AI will buy at [4] Gold"]
+	},
+	{	"name": "Xenodrugs",
+		"resourceType": "Strategic",
+		"gold": 2,
+		"uniques": ["Doesn't generate naturally","Excluded from map editor"]
 	},
 	{	"name": "Citrus",
 		"resourceType": "Luxury",
@@ -425,7 +427,7 @@
 		"improvemedBy": ["Plantation","Greenhouse"]
 	},
 
-	{	"name": "Crab",
+	{	"name": "Crabs",
 		"resourceType": ["Fishing Boats", "Mangrove"],
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
